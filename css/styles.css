@@ -1,0 +1,231 @@
+:root {
+  --primary-text-color: #434455;
+  --secondary-text-color: #ffffff;
+  --third-text-color: #e7e9fc;
+  --primary-title-color: #2e2f42;
+  --secondary-title-color: #ffffff;
+  --primary-header-link-color: #2e2f42;
+  --secondary-header-link-color: #434455;
+  --main-logo-color: #4d5ae5;
+  --secondary-logo-color: #2e2f42;
+  --third-logo-color: #f4f4fd;
+  --primary-accent-color: #4d5ae5;
+  --secondary-accent-color: #404bbf;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #f4f4fd;
+  --third-background-color: #2e2f42;
+  --header-background-color: #ffffff;
+  --footer-background-color: #2e2f42;
+}
+
+/*---------------GENERAL---------------*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.part-logo {
+  color: var(--main-logo-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-title-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+/*----------------HEADER----------------*/
+
+.header {
+  background-color: var(--header-background-color);
+}
+
+.header-logo {
+  color: var(--secondary-logo-color);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-header-link-color);
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-link.current {
+  color: var(--primary-accent-color);
+}
+
+.mail,
+.phone {
+  font-style: normal;
+  color: var(--secondary-header-link-color);
+}
+
+/*------------MAIN PAGE-HERO------------*/
+
+.hero-section {
+  background-color: var(--third-background-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--secondary-title-color);
+}
+
+.hero-btn {
+  color: var(--secondary-text-color);
+  background-color: var(--primary-accent-color);
+}
+
+/*------------MAIN PAGE-VALUES------------*/
+
+.values-section {
+  background-color: var(--primary-background-color);
+}
+
+.values-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-title-color);
+}
+
+.values-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+/*------------MAIN PAGE-PRESENTATION------------*/
+
+.presentation-section {
+  background-color: var(--primary-background-color);
+}
+
+.presentation-title {
+  text-align: center;
+}
+
+/*------------MAIN PAGE-TEAM------------*/
+
+.team-section {
+  background-color: var(--secondary-background-color);
+}
+
+.team-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.team-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+/*----------------FOOTER---------------*/
+
+.footer {
+  background-color: var(--footer-background-color);
+}
+
+.footer-logo {
+  color: var(--third-logo-color);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--third-text-color);
+}
+
+/*---------------PORTFOLIO----------------*/
+
+.gallery-section {
+  background-color: var(--primary-background-color);
+}
+
+.gallery-btn {
+  color: var(--primary-accent-color);
+  background-color: var(--secondary-background-color);
+}
+
+.gallery-btn:hover,
+.gallery-btn:focus {
+  background-color: var(--secondary-accent-color);
+  color: var(--secondary-text-color);
+}
+
+.gallery-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.gallery-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
